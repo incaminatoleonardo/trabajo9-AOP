@@ -13,7 +13,7 @@ import org.aspectj.lang.annotation.Aspect;
 public class Registracion {
 
 	// private PersistenciaInsultos persistencia; preguntar como manejamos la
-	// inyeccion de dependencia
+	// inyeccion de dependencia --> No se usa Inyeccion con AOP
 	private String pathCasa = "C:\\Users\\Frodo\\Desktop\\Uni\\Objetos 2\\RegistrosDeTrabajos\\tp9-RegistroInsultos.txt";
 
 	@After("execution(* *.insultarA(..))")
